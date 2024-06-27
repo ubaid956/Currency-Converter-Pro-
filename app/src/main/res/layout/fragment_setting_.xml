@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark_gray"
+
+    style="@style/Screen"
+    android:orientation="vertical"
+    android:id="@+id/setting_frag"
+    tools:context=".Setting_Fragment">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/_80sdp"
+        android:background="@color/white"
+        android:id="@+id/widget_card"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+           android:backgroundTint="@color/dark_gray"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_8sdp"
+                android:text="@string/widgets"
+                android:textSize="@dimen/_20sdp"
+                android:textColor="@color/white"
+                tools:ignore="TextSizeCheck" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"/> <!-- This makes the LinearLayout take up all the available space -->
+
+            <ImageButton
+                android:layout_width="@dimen/_40sdp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:background="@color/dark_gray"
+                android:contentDescription="@string/next_btn"
+                android:src="@drawable/next_icon"
+                tools:ignore="TouchTargetSizeCheck" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:background="@color/white"
+        android:id="@+id/vibration_card"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+          android:background="@color/dark_gray"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:textColor="@color/white"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_8sdp"
+                android:text="@string/vibration"
+                android:textSize="@dimen/_20sdp"
+                tools:ignore="TextSizeCheck" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"/> <!-- This makes the LinearLayout take up all the available space -->
+
+            <com.google.android.material.switchmaterial.SwitchMaterial
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                app:thumbTint="#1476AB"
+                tools:ignore="TouchTargetSizeCheck" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

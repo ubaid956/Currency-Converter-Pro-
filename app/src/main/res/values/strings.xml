@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Currency Converter Pro</string>
+    <string name="currency_convertor_pro">CURRENCY PRO</string>
+    <string name="todo">TODO</string>
+    <string name="updated_5_45pm">Updated : 5:45PM</string>
+    <string name="_0">0</string>
+    <string name="graphImage">TODO</string>
+    <string name="cButton">C</string>
+    <string name="_7">7</string>
+    <string name="c">C</string>
+    <string name="button7">7</string>
+    <string name="button8">8</string>
+    <string name="_9">9</string>
+    <string name="_4">4</string>
+    <string name="_5">5</string>
+    <string name="_6">6</string>
+    <string name="_1">1</string>
+    <string name="_2">2</string>
+    <string name="_3">3</string>
+    <string name="button0">0</string>
+    <string name="n">=</string>
+    <string name="dotBtn">.</string>
+    <string name="menu">TODO</string>
+    <string name="get_pro_features">Get PRO features</string>
+    <string name="settings">Settings</string>
+    <string name="themes">Themes</string>
+    <string name="send_feedback">Send Feedback</string>
+    <string name="about">About</string>
+
+    <string name="OpenDrawer">Open Navigation Drawer</string>
+    <string name="CloseDrawer">Close Navigation Drawer</string>
+    <string name="refresh_button">Refresh Button</string>
+    <string name="cancel_button">Cancel Button</string>
+    <string name="search">Search</string>
+    <string name="background">TODO</string>
+    <string name="about_text">Notice</string>
+    <string name="about_notice">The rates published here are informational and may differ from your bank\'s official exhange rates. Rates can change at any time without notice. \n\nWe accept no liability whatsover for any loss or damages suffered through any act or omission taken as a result of reading or interpreting any of the information contained or related to this app.</string>
+    <string name="updated_text">2.10.0\nUpdated: 12:20, AM Jan 25, 2024</string>
+    <string name="f_theme">f_theme</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="feebback">How can we Help you?</string>
+    <string name="btn1">I experienced an issue</string>
+    <string name="btn2">The functions I need are missing</string>
+    <string name="btn3">I have an idea to share</string>
+    <string name="btn4">Its complicated to use</string>
+    <string name="btn5">I love your app</string>
+    <string name="nextbtn">Next</string>
+    <string name="dark_theme">Dark Theme</string>
+    <string name="widgets">Widgets</string>
+    <string name="vibration">Vibration</string>
+    <string name="next_btn">TODO</string>
+    <string name="amount_tv">0</string>
+</resources>

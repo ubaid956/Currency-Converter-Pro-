@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="@dimen/_200sdp"
+    android:orientation="vertical"
+    android:background="@drawable/header_background"
+    android:gravity="bottom"
+    android:layout_height="@dimen/_170sdp">
+
+    <android.widget.Button
+        style="@style/MaterialAlertDialog.Material3.Title.Icon"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="@dimen/_50sdp"
+        android:background="#0F16B1"
+        android:drawableStart="@drawable/star"
+        android:paddingStart="@dimen/_20sdp"
+        android:paddingEnd="@dimen/_20sdp"
+        android:text="@string/get_pro_features"
+        android:textColor="#FBFBFD"
+        android:textSize="@dimen/_15sdp"
+        tools:ignore="VisualLintButtonSize,TextSizeCheck" />
+
+
+</LinearLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_2sdp"
+        android:layout_marginTop="@dimen/_2sdp"
+
+        android:orientation="horizontal"
+        android:background="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/myImage"
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:contentDescription="@string/todo" />
+
+        <TextView
+            android:id="@+id/countryName"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:textSize="@dimen/_15sdp"
+            android:textColor="@color/Light_gray"
+            tools:ignore="VisualLintBounds" />
+
+
+        <TextView
+            android:id="@+id/amount"
+            android:layout_width="@dimen/_180sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:text="@string/amount_tv"
+            android:background="@android:color/transparent"
+            android:textAlignment="viewEnd"
+            android:textColor="@color/Light_gray"
+            android:textIsSelectable="true"
+            android:textSize="@dimen/_18sdp"
+            tools:ignore="TouchTargetSizeCheck,TextSizeCheck"
+            android:autofillHints="0"
+             />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_30sdp"
+            app:srcCompat="@drawable/graph"
+            android:contentDescription="@string/graphImage" />
+
+<!--        <include layout="@layout/fragment_main_"/>-->
+
+<!--            <FrameLayout/>-->
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
